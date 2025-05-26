@@ -13,24 +13,24 @@ Este proyecto es un simulador educativo de una arquitectura de procesador que in
 
 ## Estructura del Proyecto
 
-proyecto_arquitectura/
-├── cpu/
-│ ├── isa.py # Definición de instrucciones
-│ └── pipeline.py # Implementación de etapas del pipeline
-├── memory/
-│ └── cache.py # Lógica de la caché
-├── io_devices/
-│ ├── devices.py # Dispositivos simulados (teclado, pantalla)
-│ └── interrupt_handler.py # Manejador de interrupciones
-├── gui/
-│ └── gui.py # Interfaz gráfica con Tkinter
-├── tests/
-│ ├── test_cpu.py # Pruebas para el pipeline
-│ ├── test_memory.py # Pruebas para la caché
-│ └── test_io.py # Pruebas para E/S e interrupciones
-├── main.py # Simulación principal por consola
-├── .gitignore # Archivos ignorados por Git
-└── README.md # Este archivo
+proyecto_arquitectura/  
+├── cpu/  
+│ ├── isa.py # Definición de instrucciones   
+│ └── pipeline.py # Implementación de etapas del pipeline 
+├── memory/  
+│ └── cache.py # Lógica de la caché  
+├── io_devices/  
+│ ├── devices.py # Dispositivos simulados (teclado, pantalla)  
+│ └── interrupt_handler.py # Manejador de interrupciones    
+├── gui/  
+│ └── gui.py # Interfaz gráfica con Tkinter  
+├── tests/  
+│ ├── test_cpu.py # Pruebas para el pipeline  
+│ ├── test_memory.py # Pruebas para la caché  
+│ └── test_io.py # Pruebas para E/S e interrupciones  
+├── main.py # Simulación principal por consola  
+├── .gitignore # Archivos ignorados por Git  
+└── README.md # Este archivo  
 
 ## Ejecución
 
