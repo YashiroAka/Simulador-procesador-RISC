@@ -16,7 +16,7 @@ Este proyecto es un simulador educativo de una arquitectura de procesador que in
 proyecto_arquitectura/  
 ├── cpu/  
 │ ├── isa.py # Definición de instrucciones   
-│ └── pipeline.py # Implementación de etapas del pipeline 
+│ └── pipeline.py # Implementación de etapas del pipeline   
 ├── memory/  
 │ └── cache.py # Lógica de la caché  
 ├── io_devices/  
